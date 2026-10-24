@@ -26,7 +26,7 @@ spec:
       containers:
       - name: csharp-api-container
         # Tên image theo định dạng Docker Hub: <username>/<tên-repo>:<tag>
-        image: huyvvnb/my-csharp-api:v1
+        image: huyvvnb/my-csharp-api:aa9ab3d88fa53ab90c94f69132f51096c83fddfe
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
