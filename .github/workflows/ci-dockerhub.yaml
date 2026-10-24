@@ -22,7 +22,7 @@ jobs:
     - name: 3. Đóng gói và Push Docker Image lên Docker Hub
       uses: docker/build-push-action@v5
       with:
-        context: .
+        context: ./WebApplication1
         push: true
         tags: |
           ${{ secrets.DOCKERHUB_USERNAME }}/my-csharp-api:${{ github.sha }}
